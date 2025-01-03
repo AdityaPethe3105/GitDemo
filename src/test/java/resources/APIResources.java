@@ -10,6 +10,7 @@ public enum APIResources {
 	
 	APIResources(String resource){
 		this.resource = resource;
+		System.out.println("Check");
 	}
 	
 	public String getResource() {
